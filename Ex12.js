@@ -7,3 +7,7 @@
 
 // Utilize o operador ternário para definir e exibir a categoria da bateria com base no valor da variável bateria.
 
+const bateria = 90;
+
+const categoriaBateria = bateria < 20 ? "Crítica" : bateria >= 20 && bateria <= 80 ? "Moderada" : "Cheia";
+console.log(categoriaBateria);

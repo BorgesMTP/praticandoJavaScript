@@ -4,3 +4,7 @@
 
 // Crie um programa utilizando o operador ternário que realize essa verificação e exiba a mensagem correspondente.
 
+const usuario = "user";
+
+const validaLogin = usuario === "admin" ? "Login bem-sucedido!" : "Usuário inválido.";
+console.log(validaLogin);

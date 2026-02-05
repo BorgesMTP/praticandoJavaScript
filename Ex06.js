@@ -15,3 +15,12 @@
 // Se for sábado (6) ou domingo (0), a loja estará aberta em horário especial.
 // Nos outros dias, a loja estará aberta no horário normal.
 
+const diaDaSemana = 3;
+const diasDaSemana = ["Domingo", "Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira", "Sábado"];
+
+
+if (diaDaSemana === 0 || diaDaSemana === 6) {
+    console.log(`${diasDaSemana[diaDaSemana]} - Horário especial: 10h às 14h`);
+} else {
+    console.log(`${diasDaSemana[diaDaSemana]} - Horário normal: 9h às 18h`);
+}

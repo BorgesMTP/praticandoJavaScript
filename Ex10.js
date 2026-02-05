@@ -6,3 +6,18 @@
 // Se o status for "recusado", exibe: "Pagamento recusado".
 // Use o switch/case para criar um programa que faça essa verificação e mostre a mensagem correspondente ao status do pagamento.
 
+const statusPagamento = "pendente";
+
+switch (statusPagamento) {
+    case "pendente":
+        console.log("Pagamento pendente.");
+        break;
+    case "aprovado":
+        console.log("Pagamento aprovado.");
+        break;
+    case "recusado":
+        console.log("Pagamento recusado.");
+        break;
+    default:
+        console.log("Status inválido.");
+}

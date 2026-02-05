@@ -6,3 +6,13 @@
 // Acima de 25: "Quente"
 
 // Escreva um programa que, dado um valor de temperatura e imprima a mensagem correspondente.
+
+const temperatura = 20;
+
+if (temperatura < 15) {
+    console.log("Frio");
+} else if (temperatura >= 15 && temperatura <= 25) {
+    console.log("Agradável");
+} else {
+    console.log("Quente");
+}

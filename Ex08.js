@@ -5,3 +5,10 @@
 // Qualquer outra fruta que não seja "laranja" ou "abacaxi" deve gerar uma mensagem de erro, informando que a fruta não é compatível.
 // Crie um programa que, dado o nome da fruta, verifique se ela é compatível com a receita.
 
+const fruta = "abacate";
+
+if (fruta !== "laranja" && fruta !== "abacaxi") {
+    console.log("Fruta não é compatível com a receita.");
+} else {
+    console.log("Fruta é compatível com a receita.");
+}
